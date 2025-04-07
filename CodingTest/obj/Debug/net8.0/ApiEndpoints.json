@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "CodingTest.Controllers.CharactersController",
+    "Method": "Get",
+    "RelativePath": "Characters/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodingTest.Controllers.CharactersController",
+    "Method": "GetById",
+    "RelativePath": "Characters/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodingTest.Controllers.CharactersController",
+    "Method": "Post",
+    "RelativePath": "Characters/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stat.StatId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stat.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stat.Value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Traits",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CodingTest.Entities.Trait, CodingTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DeletedAt",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
