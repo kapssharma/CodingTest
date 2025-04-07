@@ -1,0 +1,6 @@
+@Coding_Challenge_dotnetapi_HostAddress = http://localhost:5295
+
+GET {{Coding_Challenge_dotnetapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
